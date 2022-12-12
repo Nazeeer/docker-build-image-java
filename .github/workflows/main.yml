@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      -master
+jobs:
+  build:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: "mmmm"
+        run: echo "nazeer"    
